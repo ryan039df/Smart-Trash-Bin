@@ -6,5 +6,7 @@
 
 # How to use it
 
-1. Use local connection (localhost) MQTT for communication between device.
-2.
+1. Using Arduino UNO,
+2. Have to install Node-Red and its prerequisites (see this for installment https://nodered.org/docs/getting-started/ ),
+3. Use your own WiFi connection mode,
+4. Use MQTT based on WiFi for the communication
