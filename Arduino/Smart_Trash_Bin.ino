@@ -15,8 +15,9 @@
 #define SOUND_VELOCITY 0.034
 #define SS_PIN 5
 #define RST_PIN 2
-#define WIFI_SSID "CALVIN-Student"
-//#define WIFI_PASSWORD "cit__iee"
+
+// You can change this for your own WiFi connection
+#define WIFI_SSID "CALVIN-Student" 
 #define WIFI_PASSWORD "CITStudentsOnly"
 //____________________________________________________________________________________________________________________________________
 WiFiClient espClient;
@@ -25,7 +26,7 @@ long lastMsg = 0;
 char msg[50];
 int value = 0;
 
-const char* mqtt_server = "10.252.240.108";
+const char* mqtt_server = "10.252.240.108"; // You can see this on your own desktop when you connected to your own WiFi by "ipconfig" IPv4 on CLI
 const int ipaddress[4] = {103, 97, 67, 25};
 byte nuidPICC[4] = {0, 0, 0, 0};
 MFRC522::MIFARE_Key key;
